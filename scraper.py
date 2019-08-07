@@ -177,8 +177,8 @@ for url in url_list:
         #username = driver.find_element_by_id("mat-input-1")
         #password = driver.find_element_by_id("mat-input-2")
 
-        username.send_keys("sophia.dou@zgccapital.com")
-        password.send_keys("zgcpass2015")
+        username.send_keys("Your UserName")
+        password.send_keys("Your Password")
 
         driver.find_element_by_css_selector("[type=submit]").click() 
         sleep(randint(2,3))
